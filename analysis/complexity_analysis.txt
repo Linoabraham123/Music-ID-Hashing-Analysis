@@ -1,0 +1,23 @@
+COMPLEXITY ANALYSIS
+
+Hashing:
+- Average search: O(1)
+- Worst-case search: O(n)
+- Average insertion: O(1)
+- Worst-case insertion: O(n)
+- Space: O(m), where m is the hash table size
+
+Linear Search:
+- Best-case search: O(1)
+- Average search: O(n)
+- Worst-case search: O(n)
+- Space: O(n) for the stored array
+
+Load Factor:
+alpha = n / m
+      = 8 / 10
+      = 0.8
+      = 80%
+
+The high load factor and repeated hash values cause clustering and
+increase the number of probes during some searches.

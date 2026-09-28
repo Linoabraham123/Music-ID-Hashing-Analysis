@@ -1,0 +1,29 @@
+SAMPLE OUTPUT / EXPECTED RESULTS
+
+Final Hash Table:
+
+Index   Song ID
+0       210
+1       420
+2       630
+3       840
+4       Empty
+5       105
+6       315
+7       525
+8       735
+9       Empty
+
+Total insertion collisions = 6
+
+Search Comparison:
+
+Search ID    Hashing    Linear Search
+105          1          1
+315          2          3
+525          3          5
+735          4          7
+840          4          8
+999          1          8
+
+Load factor = 0.80 (80%)

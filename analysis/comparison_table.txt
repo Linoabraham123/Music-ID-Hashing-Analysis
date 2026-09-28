@@ -1,0 +1,14 @@
+SEARCH COMPARISON
+
+| Search ID | Hashing Comparisons | Linear Search Comparisons |
+|---:|---:|---:|
+| 105 | 1 | 1 |
+| 315 | 2 | 3 |
+| 525 | 3 | 5 |
+| 735 | 4 | 7 |
+| 840 | 4 | 8 |
+| 999 | 1 | 8 |
+
+Note:
+Hashing uses linear probing. The number of comparisons depends on the
+collision pattern and insertion order.
